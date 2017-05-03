@@ -16,4 +16,9 @@ window.load = function () {
         game.load.image('logo', 'assets/phaser.png');
     }
 
+    function create() {
+        game.add.sprite(0,0,'logo')
+                    // game.world.centerXmgame.world.centerY
+    }
+
 }
