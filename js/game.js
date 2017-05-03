@@ -13,7 +13,7 @@ window.load = function () {
 
 
     function preload() {
-        game.load().image
+        game.load.image('logo', 'assets/phaser.png');
     }
 
 }
